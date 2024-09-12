@@ -1,0 +1,89 @@
+body{
+    background-color: #F3E0BE;
+    font-family: 'Lobster', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    padding: 30px;
+    width: fit-content;
+    background-color: aqua;
+    border-radius: 25px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    list-style-type:none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.navi{
+    display: inline;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+
+}
+.item{
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.but{
+    position: relative;
+    top: -13px;
+    height: 3rem;
+    width: 3rem;
+    float: right;
+    font-size: 2rem;
+    background-color: aqua;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+p{
+    font-size: 1.2rem;
+    display: inline;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+input{
+    border: none;
+    background-color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+.check{
+    text-decoration: line-through;
+}
+
+.butt{
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 1.2rem;
+    float: right;
+    position: relative;
+    top: 9px;
+}
+

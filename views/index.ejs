@@ -1,0 +1,23 @@
+<%- include("partials/header.ejs") %>
+<div class="header">
+<h1><%= new Date().toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric' }) %></h1>
+</div>
+
+<div class="box">
+    <form method="post" action="/remove">
+    <% dailyActivities.forEach(activity => { %>
+        <div class="item"><input id="check" name="removeTask" type="checkbox"><p><%= activity %></p></div><hr>
+    <% }); %>
+    <div class="bbbb"><button class="butt" type="submit">Remove Checked Tasks</button></div>
+    </form>
+    
+    <form class="item" action="/" method="post">
+        <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+        <button class="but" type="submit" name="list" value="Work">+</button>
+    </form>
+</div>
+
+
+
+
+<%- include("partials/footer.ejs") %>
